@@ -1,9 +1,10 @@
+import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="App">
-      <h2 className="text-3xl">Hello Tailwind!</h2>
-    </div>
+    <Container>
+      <h2>Hello Tailwind!</h2>
+    </Container>
   );
 }
 
